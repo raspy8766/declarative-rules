@@ -1,7 +1,8 @@
 {
   "name": "declarative-rules",
   "version": "0.1.1",
-  "description": "A library for declarative rules.",
+  "description": "A lightweight, type-safe library for managing complex conditional logic in a clean, declarative, and extensible way.",
+  "homepage": "https://github.com/raspy8766/declarative-rules#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -11,10 +12,27 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/raspy8766/declarative-rules.git"
   },
-  "keywords": ["rules", "declarative", "library"],
-  "author": "",
+  "keywords": [
+    "rules",
+    "rules engine",
+    "rules-engine",
+    "conditionals",
+    "conditional logic",
+    "conditional-logic",
+    "business rules",
+    "business-rules",
+    "business logic",
+    "business-logic",
+    "declarative rules",
+    "decision-engine",
+    "predicate"
+  ],
+  "author": {
+    "name": "Ross Rasmussen",
+    "url": "https://github.com/raspy8766"
+  },
   "license": "MIT",
   "files": [
     "dist/*.js",
@@ -24,8 +42,5 @@
     "bun-types": "^1.2.19",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   }
 }
