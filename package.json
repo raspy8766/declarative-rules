@@ -1,6 +1,6 @@
 {
   "name": "declarative-rules",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight, type-safe library for managing complex conditional logic in a clean, declarative, and extensible way.",
   "homepage": "https://github.com/raspy8766/declarative-rules#readme",
   "main": "dist/index.js",
