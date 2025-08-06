@@ -1,0 +1,6 @@
+src/
+tests/
+*.ts
+*.test.ts
+jest.config.js
+*.log

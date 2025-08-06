@@ -1,0 +1,31 @@
+{
+  "name": "declarative-rules",
+  "version": "0.1.0",
+  "description": "A library for declarative rules.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build --target=node ./src/index.ts --outfile=dist/index.js && tsc --emitDeclarationOnly --project tsconfig.types.json && rimraf tsconfig.types.tsbuildinfo",
+    "test": "bun test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["rules", "declarative", "library"],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts"
+  ],
+  "devDependencies": {
+    "bun-types": "^1.2.19",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
